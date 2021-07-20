@@ -8,8 +8,6 @@ const capitalizeAndFilter = (stringArray) => {
     })
 
     return filteredArray;
-    
-    return stringArray;
 };
 
 export default capitalizeAndFilter;
