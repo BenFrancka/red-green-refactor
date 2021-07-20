@@ -3,9 +3,7 @@
 const capitalizeAndFilter = (stringArray) => {
     const upperCaseArray = stringArray.map(string => string.toUpperCase());
 
-    const filteredArray = upperCaseArray.filter(function(string) {
-        return string[0] !== "F";
-    })
+    const filteredArray = upperCaseArray.filter(string => string[0] !== "F")
 
     return filteredArray;
 };
