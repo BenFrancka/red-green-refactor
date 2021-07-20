@@ -1,4 +1,4 @@
-import capitalizeAndFilter from "./capitalizeAndFilter";
+import capitalizeAndFilter from './capitalizeAndFilter';
 
 describe('capitalizeAndFilter', () => {
   it('takes in an array of strings, capitalizes all the strings, and filters out any string that starts with F/f.', () => {
