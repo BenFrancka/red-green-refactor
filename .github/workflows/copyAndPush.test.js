@@ -8,4 +8,14 @@ describe('copyAndPush', () => {
 
         expect(actual).toEqual(expected);
     });
+
+    describe('copyAndPush', () => {
+        it('creates a new array that contains all items from the original array with a new item pushed to the end', () => {
+            const numbers = [1, 2, 3];
+            const newNumbers =
+            copyAndPush(numbers, 4);
+
+            expect(numbers).not.toEqual(newNumbers);
+        });
+    });
 });
